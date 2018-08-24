@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.player-button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  color: black;
+  background-color: orange;
+}
+
+.player-artwork {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.player-info {
+	width: 150px;
+}
+
+.seeker {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.seeker-bar {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+  margin: 10px;
+}
+
+.seeker-progress {
+  height: 2px;
+  background-color: orange;
+}
+
+.seeker-time {
+  width: 30px;
+  text-align: center;
+}
